@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Caprasimo&family=Ysabeau+Office:ital,wght@1,1&display=swap');
+
+nav {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #3B00CF23;
+    position: fixed;
+    z-index: 10;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Agdasima', 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #4915CF93;
+}
+
+a:hover {
+    color: black;
+    font-size: 23px;
+}
